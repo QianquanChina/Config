@@ -1,0 +1,6 @@
+/*
+/ranger/plugins/*
+!/fzf
+!/zsh
+!/ranger
+!/.gitignore
