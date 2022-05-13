@@ -151,7 +151,8 @@ conda activate PyTorch
 source ~/.config/fzf/completion.zsh 
 source ~/.config/fzf/key-bindings.zsh 
 export FZF_DEFAULT_COMMAND='fd --hidden --follow -E ".git" -E "node_modules" . /etc /home'
-export FZF_DEFAULT_OPTS='--height 90% --layout=reverse --bind=ctrl-j:down,ctrl-k:up,ctrl-i:toggle+down,ctrl-e:preview-down,ctrl-a:preview-up --border --preview "echo {} | ~/.config/fzf/fzf_preview.py" --preview-window=down'
+export FZF_DEFAULT_OPTS='--height 90% --layout=reverse --bind=ctrl-j:down,ctrl-k:up,ctrl-i:toggle+down,ctrl-e:preview-down,ctrl-a:preview-up --border sharp --preview "echo {} | ~/.config/fzf/fzf_preview.py" --preview-window "down,40%,border-sharp"'
+
 # export FZF_DEFAULT_OPTS="--height 80% --layout=reverse --border --preview '~/.config/fzf/fzf_scope.sh {} '"
 
 # use fzf in bash and zsh
